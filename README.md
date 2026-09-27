@@ -12,6 +12,16 @@ iGen is a digital marketplace built on one principle: **from workflow problems t
 | **The Student Workflow Starter Kit** | Semester planner, assignment tracker, study-block scheduler, exam-prep checklist | **$0.00 — FREE** |
 | **The AI Subscription Audit** | Find and kill the AI subscriptions you don't need. Replace-or-cut recommendations | **$9.99 once** |
 
+## Premium — new
+
+| Product | What it is | Price |
+| --- | --- | --- |
+| **The Agent Operations Runbook** | Run AI agents in production — memory, context, handoffs, cost control, recovery | **$39.99 once** |
+| **The AI Workflow Audit & Rebuild Kit** | Diagnose every broken AI workflow and rebuild it — scorecard, blueprints, 30-day fix calendar | **$49.99 once** |
+| **The Solo Founder Automation Suite** | One-person back office: client onboarding, pricing, invoicing, email, analytics | **$44.99 once** |
+| **The Product Launch System** | Launch-directory pipeline that ships to the right communities without spamming | **$39.99 once** |
+| **The AI Governance & Control Framework** | Control tiers and decision rights for teams running autonomous AI | **$49.99 once** |
+
 ## What's in the catalog
 
 | Category | What you get |

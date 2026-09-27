@@ -28,6 +28,8 @@ Every product below is a one-time-priced digital download, available instantly a
 | 72-Hour Product Sprint | 14.99 |
 | Agent Autonomy Playbook | 14.99 |
 | Agent Guardrails Checklist | 12.99 |
+| **The Agent Operations Runbook** | 39.99 |
+| **The AI Governance & Control Framework** | 49.99 |
 
 ### Ebooks
 
@@ -59,6 +61,7 @@ Every product below is a one-time-priced digital download, available instantly a
 | Onboarding Email Sequence Template | 9.99 |
 | AI Build-Decision Template | 19.99 |
 | Local-First Agent Context Pack | 14.99 |
+| **The Product Launch System** | 39.99 |
 
 ### UI Kits
 
@@ -82,6 +85,7 @@ Every product below is a one-time-priced digital download, available instantly a
 | Email Deliverability Toolkit | 29.99 |
 | Social Media Scheduler | 19.99 |
 | Form Builder Toolkit | 14.99 |
+| **The Solo Founder Automation Suite** | 44.99 |
 
 ### AI Tools
 
@@ -93,6 +97,7 @@ Every product below is a one-time-priced digital download, available instantly a
 | AI Image Generation Toolkit | 19.99 |
 | AI Voice Assistant Kit | 29.99 |
 | AI Verification & Control Kit | 24.99 |
+| **The AI Workflow Audit & Rebuild Kit** | 49.99 |
 
 ### Buy on iGen.tech
 
