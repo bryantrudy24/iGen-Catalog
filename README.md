@@ -28,6 +28,11 @@ iGen is a digital marketplace built on one principle: clarity-first products for
 - No subscription — no recurring fees, ever
 - Workflow-clarity — every product is built to drop into your workflow
 
+## Catalog
+
+- [Browse the full catalog page](catalog.html)
+- [Read the full product list (CATALOG.md)](CATALOG.md)
+
 [**Browse the full catalog on iGen.tech**](https://igen.tech)
 
 © iGen — built for founders who ship.
