@@ -26,6 +26,8 @@ Every product below is a one-time-priced digital download, available instantly a
 | Audience Research Guide | 12.99 |
 | API Design Guide | 9.99 |
 | 72-Hour Product Sprint | 14.99 |
+| Agent Autonomy Playbook | 14.99 |
+| Agent Guardrails Checklist | 12.99 |
 
 ### Ebooks
 
@@ -55,6 +57,8 @@ Every product below is a one-time-priced digital download, available instantly a
 | User Interview Script Template | 4.99 |
 | Employee Handbook Template | 14.99 |
 | Onboarding Email Sequence Template | 9.99 |
+| AI Build-Decision Template | 19.99 |
+| Local-First Agent Context Pack | 14.99 |
 
 ### UI Kits
 
@@ -67,6 +71,7 @@ Every product below is a one-time-priced digital download, available instantly a
 | Portfolio UI Kit | 14.99 |
 | AI Chat Interface UI Kit | 19.99 |
 | SaaS Billing UI Kit | 24.99 |
+| AI Workflow Canvas Pack | 19.99 |
 
 ### SaaS Tools
 
@@ -87,6 +92,7 @@ Every product below is a one-time-priced digital download, available instantly a
 | AI Meeting Assistant Kit | 24.99 |
 | AI Image Generation Toolkit | 19.99 |
 | AI Voice Assistant Kit | 29.99 |
+| AI Verification & Control Kit | 24.99 |
 
 ### Buy on iGen.tech
 
