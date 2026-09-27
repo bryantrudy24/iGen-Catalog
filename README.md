@@ -2,7 +2,15 @@
 
 The digital marketplace for builders who ship — clarity-first products, no fluff.
 
-iGen is a digital marketplace built on one principle: clarity-first products for people who ship. Find AI prompt packs, free business templates, SaaS UI kits, and ebooks for founders — all one-time priced, all instantly downloadable. No subscriptions, no sales calls, no gates.
+iGen is a digital marketplace built on one principle: **from workflow problems to confident actions**. Find AI prompt packs, free business templates, SaaS UI kits, ebooks, and guides for students, builders, and productivity seekers — all one-time priced, all instantly downloadable. No subscriptions, no credit metering, no gates.
+
+## New this season
+
+| Product | What it is | Price |
+| --- | --- | --- |
+| **The Workflow Clarity Bundle** | Six best-sellers in one purchase: Productivity OS, Meeting Notes, Marketing Funnel, Client Proposal, AI Workflow Auditor, Weekly Review | **$29.99 once** |
+| **The Student Workflow Starter Kit** | Semester planner, assignment tracker, study-block scheduler, exam-prep checklist | **$0.00 — FREE** |
+| **The AI Subscription Audit** | Find and kill the AI subscriptions you don't need. Replace-or-cut recommendations | **$9.99 once** |
 
 ## What's in the catalog
 
