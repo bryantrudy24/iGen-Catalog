@@ -15,7 +15,7 @@ Generated 2026-09-29. Covers the Cycle Review 001 decisions and the cycle-006 wa
 - Routine e56c43eb rewritten with watch-verified procedure and re-enabled.
 
 ## Gap analysis
-- PREDICT 1: (fill from manifest — post ID captured or pending; gap noted in artifact)
+- PREDICT 1: PARTIAL MATCH — execution verified SUCCESS (exec 4f5833176d374134bef8a4242b3a10e4) and the scenario ran the text-only teaching post P-017 end-to-end (bridge Accept → trigger → SUCCESS); the Facebook post ID itself is PENDING visual confirmation on the Page because the Make API scope under this key returns execution status only (module outputs not exposed; list/detail endpoints 404). Architecture proven; platform-facing post ID is the remaining link for the baseline.
 - PREDICT 2: MATCH — no revenue movement, as predicted (no funnel events to convert).
 - PREDICT 3: MATCH — 6 products revised and read-back verified.
 
