@@ -13,9 +13,10 @@ All numbers from platform APIs/dashboards, never estimates.
 | Manual test publish (2026-09-29T18:01Z) | - | 1 (exec 97bb7020, SUCCESS, CreatePostWithPhotos) | n/a | n/a | n/a | n/a | n/a |
 | Cycle 18 (2026-09-29T15:38Z, text-only teaching post) | 1 (bridge HTTP 200 "Accepted") | 0 (unattended gate) | n/a | n/a | n/a | n/a | n/a |
 | Cycle 19 (2026-09-29, text-only story post, AI Research Assistant Kit) | 1 (bridge HTTP 200 "Accepted") | 0 (unattended gate) | n/a | n/a | n/a | n/a | n/a |
-| Cycle 006 watch (2026-09-29T22:2xZ, text-only teaching post P-017) | 1 (P-017 bridged) | PENDING verified post ID | n/a | n/a | n/a | n/a | n/a |
+| Cycle 006 watch (2026-09-29T22:2xZ, text-only teaching post P-017) | 1 (P-017 bridged) | 1 — VERIFIED BASELINE (Commander-confirmed visible on Page; exec 4f5833176d374134bef8a4242b3a10e4 SUCCESS) | n/a | n/a | n/a | n/a | n/a |
+| Cycle 007 (2026-09-29T22:49Z, text-only positioning post P-018) | 1 (P-018 bridged) | 1 (exec 142c2849aa97462e8c4d0764d058a92e SUCCESS) — DEFECT: no https://igen.tech URL in copy (CTA rule violation shipped) | n/a | n/a | n/a | n/a | n/a |
 
-Trend: publishing architecture verified once manually; unattended verification previously blocked by Make API paid-plan gate — this run the Make key is SET in the shell, so the watch path (scenario trigger → execution read → post ID) is being exercised end-to-end. Engagement metrics still require FB Graph API access beyond Make CreatePost (not granted). Copy quality checks stay enforced every cycle; the measurable outcome moves from the bridge to the Page the moment a post ID is captured.
+Trend: publishing loop is now end-to-end verified — the watch procedure produces SUCCESS executions against the Page. First verified baseline (P-017) recorded. Cycle 007 exposed the CTA gate gap: a post without a URL still shipped because enforcement ran at draft time only. The script now has a pre-bridge CTA/URL gate (no https://igen.tech => AI_PENDING, exit 2) so no future post ships without a funnel URL. Engagement metrics still require FB Graph API access beyond Make CreatePost (not granted); reach/reactions/clicks remain n/a until that or Page Insights access exists. Funnel: Facebook → iGen.tech → Stripe checkout is the measured mission.
 
 ## Channel: Outreach
 
@@ -33,8 +34,9 @@ Trend: zero send path (no messaging connector). Per Cycle Review 001, outreach s
 | Cycles 1-17 (2026-09-27..29) | $0.00 | $3.98 | 0 | 0 new | n/a | n/a |
 | Cycle 18/19 (2026-09-29) | $0.00 | $3.98 | 0 | 0 new | n/a | n/a |
 | Cycle 006 (2026-09-29T22:01Z) | $0.00 | $3.98 | 0 | 0 new | n/a | n/a |
+| Cycle 007 (2026-09-29T22:49Z) | $0.00 | $3.98 | 0 | 0 new | n/a | n/a |
 
-Target: $2,000 MRR = 40 x $49.99/mo Workflow Membership. Subscriptions list verified empty via Stripe API (status all, has_more=false). PaymentIntents verified live each cycle: 2 succeeded x $1.99, 0 new in cycle 006.
+Target: $2,000 MRR = 40 x $49.99/mo Workflow Membership. Subscriptions list verified empty via Stripe API (status all, has_more=false). PaymentIntents verified live each cycle: 2 succeeded x $1.99 (90-day-content-engine), 0 new in cycle 007. Checkout surface verified live: 1 active payment link (plink_1UL3gAPHXel7gDrWOOFv3UEh, livemode, submit_type=subscribe, url https://buy.stripe.com/4gM00lgmSa0u0sp440bII00).
 
 ## Channel: Supabase
 
@@ -45,8 +47,10 @@ Target: $2,000 MRR = 40 x $49.99/mo Workflow Membership. Subscriptions list veri
 | feedback rows | 0 |
 | outreach rows | 0 |
 
-(Cycle 006: re-verified 98/1/0/0 via SQL. Product conversion pass performed — 6 products revised with stronger value propositions + CTAs:
-ai-content-repurposing-engine, roi-calculator, churnguard-ai, ai-workflow-audit-rebuild-kit, solo-founder-automation-suite, ai-verification-control-kit — read-back verified via SELECT.)
+(Cycle 007: re-verified 98/1/0/0 via SQL. Funnel landing pages verified reachable and CTA-correct:
+- https://igen.tech/products/ai-workflow-audit-rebuild-kit — live, Buy Now $49.99, description carries https://igen.tech/ai-workflow-audit-rebuild-kit
+- https://igen.tech/products/ai-subscription-audit — live, Buy Now $9.99, claim "Most users cut 1-3 AI subscriptions in the first pass" backs P-020
+- Payment link https://buy.stripe.com/4gM00lgmSa0u0sp440bII00 active (livemode).)
 
 ## Week-over-week (placeholder — populate next week)
 
@@ -56,7 +60,9 @@ ai-content-repurposing-engine, roi-calculator, churnguard-ai, ai-workflow-audit-
 
 (no engagement metrics yet; first real comparison after verified publishes have reach data)
 
-## Cycle 006 conversion actions (Stripe-side, in this cycle)
+## Cycle 007 conversion actions (funnel-building, in this cycle)
 
-- 6 products revised: concrete value proposition + CTA in description, sharper tagline (see Supabase SELECT above). Goal: lift click-through iGen.tech → Stripe checkout.
-- Funnel tracking: Facebook → iGen.tech → Stripe checkout remains the mission; events table has 1 test page_view — the product page must emit page_view events per slug so funnel conversion can be measured (next cycle improvement).
+- Baseline publish recorded: P-017 (teaching) is the first verified publish (Commander Page-confirmed + exec SUCCESS).
+- Cycle 007 published P-018 (positioning) — recorded as a defect: it shipped without a URL; the concrete outcome is the hardened CTA gate, not the post.
+- P-019 repaired with URL; P-020 queued (pain pillar, AI Subscription Audit $9.99, claim matches live product page).
+- Funnel verification complete: iGen.tech → product page (Buy Now) → Stripe checkout all reachable from public URLs. Funnel events still limited (1 test page_view); next improvement remains emitting page_view events per product slug so click-through can be measured.
