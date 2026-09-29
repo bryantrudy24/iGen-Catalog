@@ -12,8 +12,9 @@ All numbers from platform APIs/dashboards, never estimates.
 | Cycles 1-17 (2026-09-27..29) | 34 | 0 (unattended gate) | n/a | n/a | n/a | n/a | n/a |
 | Manual test publish (2026-09-29T18:01Z) | - | 1 (exec 97bb7020, SUCCESS, CreatePostWithPhotos) | n/a | n/a | n/a | n/a | n/a |
 | Cycle 18 (2026-09-29T15:38Z, text-only teaching post) | 1 (bridge HTTP 200 "Accepted") | 0 (unattended gate) | n/a | n/a | n/a | n/a | n/a |
+| Cycle 19 (2026-09-29, text-only story post, AI Research Assistant Kit) | 1 (bridge HTTP 200 "Accepted") | 0 (unattended gate) | n/a | n/a | n/a | n/a | n/a |
 
-Trend: publishing architecture verified once manually; unattended verification remains blocked by Make API paid-plan gate. Engagement metrics require FB Graph API access (not granted). Copy quality checks (specific-claim, competitor-swap, pillar rotation) pass every cycle; the measurable outcome stays at the bridge until the publish gate opens.
+Trend: publishing architecture verified once manually; unattended verification remains blocked by Make API paid-plan gate. 36 posts queued across 19 cycles, 0 verified unattended publishes. Engagement metrics require FB Graph API access (not granted). Copy quality checks (specific-claim, competitor-swap, pillar rotation) pass every cycle; the measurable outcome stays at the bridge until the publish gate opens.
 
 ## Channel: Outreach
 
@@ -30,8 +31,9 @@ Trend: zero send path (no messaging connector). No outcome data until a channel 
 | Baseline (2026-07-25/27) | $0.00 | $3.98 | 0 | 2 (x $1.99) | n/a | n/a |
 | Cycles 1-17 (2026-09-27..29) | $0.00 | $3.98 | 0 | 0 new | n/a | n/a |
 | Cycle 18 (2026-09-29) | $0.00 | $3.98 | 0 | 0 new | n/a | n/a |
+| Cycle 19 (2026-09-29) | $0.00 | $3.98 | 0 | 0 new | n/a | n/a |
 
-Target: $2,000 MRR = 40 x $49.99/mo Workflow Membership. Subscriptions list verified empty via Stripe API (status all, has_more=false).
+Target: $2,000 MRR = 40 x $49.99/mo Workflow Membership. Subscriptions list verified empty via Stripe API (status all, has_more=false). PaymentIntents verified live each cycle: 2 succeeded x $1.99, 0 new in C19.
 
 ## Channel: Supabase
 
@@ -42,7 +44,7 @@ Target: $2,000 MRR = 40 x $49.99/mo Workflow Membership. Subscriptions list veri
 | feedback rows | 0 |
 | outreach rows | 0 |
 
-(Cycle 18: re-verified 98/1/0/0, zero delta.)
+(Cycle 18: re-verified 98/1/0/0, zero delta. Cycle 19: re-verified 98/1/0/0 via SQL, zero delta.)
 
 ## Week-over-week (placeholder — populate next week)
 
